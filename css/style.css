@@ -1,0 +1,49 @@
+.debug .row  [class*="col-"] {
+  background-color: pink;
+  border: 2px solid black;
+  height: 100px;
+}
+
+.header_top{
+  /* height: 180px; */
+  background-color: yellow;
+}
+
+.header_bottom{
+  height: 500px;
+
+}
+
+
+.jumbo_boy{
+  background-color: lightgreen;
+height: 500px;
+text-align: center;
+padding-top: 30px;
+color:white;
+font-size: 40px;
+}
+
+.prof{
+  height: 300px;
+  border-radius: 50%;
+}
+section .row h3{
+  padding-bottom: 30px;
+}
+section .row img{
+  padding: 20px;
+}
+
+section{
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+
+.sec_2{
+  height: 300px;
+  background-color: yellow;
+vertical-align: middle;
+color:white;}
