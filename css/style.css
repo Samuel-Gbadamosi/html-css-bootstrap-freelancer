@@ -1,49 +1,73 @@
-.debug .row  [class*="col-"] {
-  background-color: pink;
-  border: 2px solid black;
-  height: 100px;
+.debug [class*='col-']{
+  background-color: red;
+  height: 200px;
+  border:1px solid black;
 }
 
-.header_top{
-  /* height: 180px; */
-  background-color: yellow;
+/* tipografy */
+h1 {
+  font-size: 60px;
+  text-transform: uppercase;
 }
 
-.header_bottom{
-  height: 500px;
-
+/* riutilizzabili */
+.ms_green {
+  background-color: #1abc9c;
 }
 
-
-.jumbo_boy{
-  background-color: lightgreen;
-height: 500px;
-text-align: center;
-padding-top: 30px;
-color:white;
-font-size: 40px;
+.ms_text_white {
+  color: white;
+}
+.d_b{
+  display: inline-block;
 }
 
-.prof{
-  height: 300px;
-  border-radius: 50%;
-}
-section .row h3{
-  padding-bottom: 30px;
-}
-section .row img{
-  padding: 20px;
+/* hedaer */
+header {
+  height: 90px;
 }
 
-section{
-  padding-top: 50px;
-  text-align: center;
+.pt{
+  padding-top: 20px;
+}
+.p_b{
   padding-bottom: 20px;
 }
 
+.navbar.ms_navbar{
+  background-color: #2c3e50;
+  border:0;
+  margin-bottom: 0;
+  padding: 20px 0;
+}
 
-.sec_2{
-  height: 300px;
-  background-color: yellow;
-vertical-align: middle;
-color:white;}
+.navbar.ms_navbar .navbar-brand,
+.navbar.ms_navbar .navbar-nav li a{
+  color:white;
+  text-transform: uppercase;
+}
+
+.navbar.ms_navbar .navbar-nav li a:hover{
+  color:#1abc9c;
+}
+
+/* jumbotron */
+.ms_star:before,
+.ms_star:after {
+  content: '';
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  border-radius:2px;
+  background-color: white;
+  margin: 0 20px;
+}
+
+.ms_star i {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.m_r{
+margin-right: 15px;
+}

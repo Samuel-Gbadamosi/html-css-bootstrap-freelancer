@@ -4,104 +4,101 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Bootstrap freelance</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="">
-  <div class="container-fluid">
-    <div class="header_top">
-      <div class="row">
-        <div class="col-xs-12">
+<body>
 
-          <div class="col-xs-3">
-           <h2>START BOOTSTRAP</h2>
-          </div>
-          <div class="col-xs-offset-4 col-xs-5">
-           menu
-          </div>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top ms_navbar">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+      </div>
 
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-->
+    </nav>
+  </header>
+
+  <section id="jumbotron" class="ms_green ms_text_white">
+    <div class="container">
+     <div class="row">
+       <div class="col-xs-12 text-center">
+        <img class="pt" src="img/profile.png" alt="profile">
+        <h1>Start Bootstrap</h1>
+        <div class="ms_star">
+          <i class="fas fa-star"></i>
         </div>
-
-      </div>
-
-    </div>
-    <div class="header_bottom">
-      <div class="jumbo_boy">
-        <img class="prof" src="img/download.png" alt="prof-pic">
-        <h3>START BOOTSTRAP</h3>
-        <span>GRAPHIC ARTISTE -</span>
-        <span>WEB DESIGNER -</span>
-        <span>ILLUSTRATOR</span>
-
-      </div>
+        <h3 class="p_b">Graphic Artist - Web Designer - Illustrator</h3>
+       </div>
+     </div>
 
     </div>
-    <main>
-      <section>
+  </section>
+
+  <main>
+    <section id="portfolio" class="">
+      <div class="container">
         <div class="row">
-             <h3>PORTAFOGLIO</h3>
+          <div class="col-xs-12  text-center">
+            <h1>PORTAFOGLIO</h1>
 
-          <div class="col-xs-12"> <img src="img/cabin.png" alt="house">  </div>
-            <div class="col-xs-12"> <img src="img/cake.png" alt="house">  </div>
-              <div class="col-xs-12"> <img src="img/circus.png" alt="house">  </div>
-                <div class="col-xs-12"> <img src="img/game.png" alt="house">  </div>
-                <div class="col-xs-12"> <img src="img/safe.png" alt="house">  </div>
-                <div class="col-xs-12"> <img src="img/submarine.png" alt="house">  </div>
 
+          </div>
+        </div>
+        <div class="container debug">
+          <div class="row ">
+            <div class="col-xs-12 col-md-6 col-lg-4 p_b ">
+            <!-- <img src="img/cabin.png" alt="cabin"> -->
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 p_b">
+              <!-- <img src="img/cake.png" alt="cake"> -->
+
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 p_b ">
+              <!-- <img src="img/circus.png" alt="circus"> -->
+
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 p_b">
+              <!-- <img src="img/game.png" alt="game"> -->
+
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4 p_b">
+              <!-- <img src="img/safe.png" alt="safe"> -->
+
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-4">
+              <!-- <img src="img/submarine.png" alt="submarine"> -->
+
+            </div>
         </div>
 
-      </section>
+        </div>
+      </div>
+    </section>
+    <section id="about"></section>
+    <section id="contact"></section>
+  </main>
 
-      <section>
-         <div class="sec_2 debug">
+  <footer>
 
-           <div class="row">
-             <div class="col-xs-12">
-               <h3>ABOUT</h3>
-
-
-               <div class="col-xs-offset-2 col-xs-4">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nimollit anim id est laborum.</p>
-
-               </div>
-               <div class=" col-xs-4">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nimollit anim id est laborum.</p>
-
-               </div>
-               <div class="row">
-                 <div class="col-xs-offset-5 col-xs-2">
-                   <button type="button" name="button">download</button>
-
-
-                 </div>
-
-               </div>
-
-
-
-
-             </div>
-
-           </div>
-
-
-         </div>
-
-
-      </section>
-
-
-
-    </main>
-
-
-
-
-
-  </div>
-  <!-- END CONTAINER FLIUD -->
-
+  </footer>
 
 
 </body>
