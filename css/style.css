@@ -31,9 +31,19 @@ ul li{
 .ms_text_white {
   color: white;
 }
+.blu_e{
+  color: blue;
+  font-size: 20px;
+  background-color: yellow;
+
+}
 
 .d_b {
   display: inline-block;
+}
+.p_b{
+  color: black;
+  font-size: 40px;
 }
 
 .purp {
@@ -49,6 +59,13 @@ header {
   padding-top: 20px;
 }
 
+.m_t{
+  margin-top: 20px;
+}
+
+.m_t{
+  margin-bottom: 20px;
+}
 .p_b {
   padding-bottom: 20px;
 }
@@ -115,8 +132,8 @@ header {
 }
 
 #contact {
-  background-color: blue;
-  height: 700px;
+  background-color: white;
+  height: 500px;
 }
 
 #footer_top {
