@@ -119,9 +119,21 @@ header {
   height: 700px;
 }
 
-#footer-top {
+#footer_top {
   background-color: #2C3E50;
-  height: 150px;
+  height: 300px;
   text-align: center;
 
+}
+
+.footer_bottom{
+  background-color: #2C3E50;
+  height: 100px;
+
+
+
+}
+
+.t_a{
+  text-align: center;
 }
