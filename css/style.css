@@ -71,3 +71,8 @@ header {
 .m_r{
 margin-right: 15px;
 }
+.p_s{
+  height: 200px;
+  padding-bottom: 4px;
+  width: 100%;
+}
